@@ -247,3 +247,18 @@ $(document).ready(function () {
       }
   });
 });
+
+// project
+
+
+const slider = $('.project_slider');
+  
+$('#exampleModal').on('shown.bs.modal', () => {
+  if (!slider.hasClass('slick-initialized')) {
+    slider.slick({ slidesToShow: 1, dots: true, arrows: false });
+  }
+}).on('hidden.bs.modal', () => {
+  if (slider.hasClass('slick-initialized')) slider.slick('unslick');
+});
+
+slider.on('click', '.slick-dots li', e => e.preventDefault());

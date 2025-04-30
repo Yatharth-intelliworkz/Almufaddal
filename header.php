@@ -38,9 +38,13 @@
             </a>
 
             <!-- Mobile Toggle Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed custom-toggler border-0 shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="toggler-bar top-bar"></span>
+                <span class="toggler-bar middle-bar"></span>
+                <span class="toggler-bar bottom-bar"></span>
             </button>
+
 
             <!-- Navigation Links -->
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -184,8 +188,7 @@
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img 
-                                                                src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
                                                             <div class="mega_right_bottm_child">
                                                                 <h4>Heat Exchangers</h4>
                                                                 <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
@@ -195,8 +198,7 @@
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img
-                                                                src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
                                                             <div class="mega_right_bottm_child">
                                                                 <h4>Heat Exchangers</h4>
                                                                 <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
@@ -206,8 +208,7 @@
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img
-                                                                src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
                                                             <div class="mega_right_bottm_child">
                                                                 <h4>Heat Exchangers</h4>
                                                                 <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
@@ -217,8 +218,7 @@
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img
-                                                                src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
                                                             <div class="mega_right_bottm_child">
                                                                 <h4>Heat Exchangers</h4>
                                                                 <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
