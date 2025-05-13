@@ -21,7 +21,7 @@
                     <h5 class="sub_head">Request<br> a Quote</h4>
                 </div> -->
                 <div class="ft_right_botom">
-                    <img src="./images/ft_logo.svg" alt="" class="img-fluid mb-4">
+                    <img src="./images/ft_logo.svg" alt="" class=" foot_logo img-fluid mb-4">
                     <p>Partner with Al Mufaddal for expert boiler services and experience the difference. Request a
                         quote and discover how we can save you time and money</p>
                     <div class="my-4 d-flex gap-4">

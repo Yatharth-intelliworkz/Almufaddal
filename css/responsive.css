@@ -123,6 +123,15 @@
     max-width: 400px;
   }
 
+  .boiler_auxiliary_child {
+    padding: 60px 40px;
+  }
+
+  .boiler_auxiliary_bot_lt p 
+  {
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width:1200px) {}
@@ -164,6 +173,10 @@
   .contact_banner {
     position: relative;
     padding-top: 50px;
+  }
+
+  .boiler_auxiliary_bot_lt p {
+    font-size: unset;
   }
 }
 
@@ -380,9 +393,26 @@
   }
 
   .Request_Quote_bot .Request_Quote_bot_left_icon {
-   display: none;
+    display: none;
   }
 
+  .boiler_auxiliary_child {
+    padding: 60px 10px;
+  }
+
+  .boiler_slider_arrow {
+    display: none;
+  }
+
+  .boiler_slider .slick-slide {
+    transform: translateX(0%);
+    margin: 0 10px;
+  }
+
+  .foot_logo
+  {
+    width: 120px;
+  }
 
 }
 

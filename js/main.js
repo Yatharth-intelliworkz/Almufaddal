@@ -1,12 +1,12 @@
 // header
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    if (window.scrollY > 0) {
-      header.classList.add("scrolled");
-    } else {
-      header.classList.remove("scrolled");
-    }
-  });
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".header");
+  if (window.scrollY > 0) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
 
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function () {
@@ -18,13 +18,13 @@ document.addEventListener('DOMContentLoaded', function () {
     arrows: false,
     dots: true,
     responsive: [
-          {
-            breakpoint: 576,
-            settings: {
-              arrows: false,
-            }
-          }
-        ]
+      {
+        breakpoint: 576,
+        settings: {
+          arrows: false,
+        }
+      }
+    ]
   });
 
   // Custom Navigation
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
   //     },
   //   ]
   // });
-  
+
   // servcice slider
   $('.service_slider').slick({
     infinite: true,
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fade: true,
     autoplay: false,
     autoplaySpeed: 2000,
-    pauseOnHover: false,      
+    pauseOnHover: false,
     pauseOnFocus: false,
     asNavFor: '.test_face_slider',
     responsive: [
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
     slidesToShow: 7,
     slidesToScroll: 1,
     infinte: true,
-    arrows:false,
+    arrows: false,
     loop: true,
     asNavFor: '.test_msg_slider',
     centerMode: false,
@@ -219,7 +219,7 @@ $('.network_slider').slick({
       settings: {
         slidesToShow: 2,
         arrows: false,
-          dots: true
+        dots: true
       }
     },
     {
@@ -227,7 +227,7 @@ $('.network_slider').slick({
       settings: {
         slidesToShow: 1,
         arrows: false,
-          dots: true
+        dots: true
       }
     }
   ]
@@ -237,14 +237,14 @@ $('.network_slider').slick({
 // category select js
 $(document).ready(function () {
   $("#categoryFilter").change(function () {
-      var selectedCategory = $(this).val(); // Jo category select hui
-      $(".category-item .row").hide(); // Pehle sabko hide kar do
+    var selectedCategory = $(this).val(); // Jo category select hui
+    $(".category-item .row").hide(); // Pehle sabko hide kar do
 
-      if (selectedCategory === "all") {
-          $(".category-item .row").show(); // Agar "Show All" select hai, toh sab wapas show ho
-      } else {
-          $("#" + selectedCategory).show(); // Sirf selected category ka section show ho
-      }
+    if (selectedCategory === "all") {
+      $(".category-item .row").show(); // Agar "Show All" select hai, toh sab wapas show ho
+    } else {
+      $("#" + selectedCategory).show(); // Sirf selected category ka section show ho
+    }
   });
 });
 
@@ -252,7 +252,7 @@ $(document).ready(function () {
 
 
 const slider = $('.project_slider');
-  
+
 $('#exampleModal').on('shown.bs.modal', () => {
   if (!slider.hasClass('slick-initialized')) {
     slider.slick({ slidesToShow: 1, dots: true, arrows: false });
@@ -262,3 +262,40 @@ $('#exampleModal').on('shown.bs.modal', () => {
 });
 
 slider.on('click', '.slick-dots li', e => e.preventDefault());
+
+
+// 
+$('.boiler_slider').slick({
+  centerMode: true,
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 4000,
+  dots: false,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+         dots: true,
+         autoplay: true,
+         centerMode: false,
+      }
+    }
+  ]
+});
+
+$('#boiler-next').on('click', function () {
+  $('.boiler_slider').slick('slickNext');
+});
+
+
+$('#boiler-prev').on('click', function () {
+  $('.boiler_slider').slick('slickPrev');
+});
+
+
+
+

@@ -76,7 +76,7 @@ a {
 .main_head {
   color: var(--wb-main-blue);
   font-size: 48px;
-  font-weight: 500;
+  /* font-weight: 500; */
   margin-bottom: 24px;
   font-family: "Kropaso", sans-serif;
 }
@@ -408,7 +408,7 @@ input:focus-visible {
 .hero_slide_head {
   color: var(--white);
   font-size: 60px;
-  font-weight: 400;
+  /* font-weight: 400; */
   line-height: 70px;
   font-family: "Kropaso", sans-serif;
 }
@@ -2252,14 +2252,140 @@ strong {
   margin-bottom: 54px;
 }
 
-.Request_Quote_bot
+.Request_Quote_bot {
+  position: relative;
+}
+
+.Request_Quote_bot .Request_Quote_bot_left_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* boiler */
+.boiler_exp_repairs,
+.boiler_explore,
+.boiler_slider_main,
+.boiler_auxiliary,
+.boiler_Inspection
+{
+margin-top: 80px;
+}
+
+
+.boiler_slider_main
 {
   position: relative;
 }
 
-.Request_Quote_bot .Request_Quote_bot_left_icon
+.boiler_slide_child
+{
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    bottom: 27px;
+    left: 20px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.boiler_slide
+{
+  position: relative;
+}
+
+.boiler_slider_arrow
 {
   position: absolute;
-  top: 0;
+  bottom: 32px;
+  right: 27%;
+}
+
+.boiler_slider .slick-slide {
+  transform: translateX(-50%);
+  margin: 0 40px;
+}
+
+.boiler_slider .slick-dots
+{
+  bottom: -20px;
+  justify-content: center;
+}
+
+.boiler_slider .slick-dots li
+{
+ width: 50px;
+}
+
+.boiler_auxiliary {
+  background: #182A41;
+  position: relative;
+}
+
+.boiler_auxiliary_child
+{
+  position: relative;
+  padding: 60px 200px;
+  z-index: 1;
+}
+
+.boiler_auxiliary::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
   left: 0;
+  background: url(../images/boiler_auxiliary1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+  background-position: left;
+  background-size: contain;
+}
+
+.boiler_auxiliary::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../images/boiler_auxiliary2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+  background-position: right;
+  background-size: contain;
+}
+
+.boiler_auxiliary_top .main_h1_head {
+  color: #CAD62B;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.boiler_auxiliary_bot_lt {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 34px;
+}
+
+.boiler_auxiliary_bot_lt p {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.boiler_explore
+{
+  margin-bottom: 80px;
+}
+
+.boiler_explore_child {
+  text-align: center;
+}
+
+.boiler_explore_child p {
+  margin-top: 20px;
+  margin-bottom: 34px;
 }
