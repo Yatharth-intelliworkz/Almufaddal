@@ -54,37 +54,37 @@
             <div class="col-lg-2">
                 <h6 class="ft_head">Quick Links</h6>
                 <ul class="ft_menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Industries We Serve</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Get In Touch</a></li>
+                    <li><a href="./index.php">Home</a></li>
+                    <li><a href="./industries.php">Industries We Serve</a></li>
+                    <li><a href="./project.php">Projects</a></li>
+                    <li><a href="./contact.php">Get In Touch</a></li>
                 </ul>
 
             </div>
             <div class="col-lg-3 white_bd_left">
                 <h6 class="ft_head">Our Expertise</h6>
                 <ul class="ft_menu">
-                    <li><a href="">Boilers</a></li>
-                    <li><a href="">Economizers, HRSG, WHRB</a></li>
-                    <li><a href="">Heat Exchangers, Condensers & Coolers</a></li>
-                    <li><a href="">PHE</a></li>
-                    <li><a href="">Refractory</a></li>
-                    <li><a href="">Automation</a></li>
-                    <li><a href="">Chemical Cleaning Services</a></li>
-                    <li><a href="">Expansion Bellows</a></li>
+                    <li><a href="./boilers.php">Boilers</a></li>
+                    <li><a href="#">Economizers, HRSG, WHRB</a></li>
+                    <li><a href="#">Heat Exchangers, Condensers & Coolers</a></li>
+                    <li><a href="#">PHE</a></li>
+                    <li><a href="#">Refractory</a></li>
+                    <li><a href="#">Automation</a></li>
+                    <li><a href="#">Chemical Cleaning Services</a></li>
+                    <li><a href="#">Expansion Bellows</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 white_bd_left">
                 <h6 class="ft_head">About</h6>
                 <ul class="ft_menu">
-                    <li><a href="">Our Story</a></li>
-                    <li><a href="">Our Heritage</a></li>
-                    <li><a href="">Quality Management</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Heritage</a></li>
+                    <li><a href="./quality-management.php">Quality Management</a></li>
                 </ul>
                 <h6 class="ft_head mt-4">Our Solutions</h6>
                 <ul class="ft_menu">
-                    <li><a href="">Repairs & Maintance </a></li>
-                    <li><a href="">Manufacturers</a></li>
+                    <li><a href="#">Repairs & Maintance </a></li>
+                    <li><a href="#">Manufacturers</a></li>
                 </ul>
             </div>
         </div>
@@ -92,10 +92,10 @@
     <hr>
     <div class="ym_container">
         <div class="d-flex justify-content-between copyrigt_text">
-            <a href="#" class="text-white">Privacy Policy</a>
+            <a href="./privacy-policy.php" class="text-white">Privacy Policy</a>
             <a class="text-white">© <?php echo date('Y'); ?> Al Mufaddal Engineering & Marine Services Co. LLC. All
                 Rights Reserved.</a>
-            <a href="#" class="text-white">Terms & Conditions</a>
+            <a href="./terms-condition.php" class="text-white">Terms & Conditions</a>
         </div>
     </div>
 </footer>

@@ -245,7 +245,7 @@
 
                     <!-- Static Links -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Industries We Serve</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./project.php">Projects</a></li>
 
                     <!-- Our Solutions Dropdown -->
                     <li class="nav-item dropdown">
@@ -284,7 +284,7 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.php">Contact Us</a></li>
                 </ul>
                 <!-- Right Icons (Search & Language) -->
                 <div class="d-flex gap-2 ms-4 align-items-center">
