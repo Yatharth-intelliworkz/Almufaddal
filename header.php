@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,7 +29,7 @@
 
 </head>
 
-<header>
+<header class="header">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!-- Logo -->
@@ -38,9 +38,13 @@
             </a>
 
             <!-- Mobile Toggle Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed custom-toggler border-0 shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="toggler-bar top-bar"></span>
+                <span class="toggler-bar middle-bar"></span>
+                <span class="toggler-bar bottom-bar"></span>
             </button>
+
 
             <!-- Navigation Links -->
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -64,10 +68,11 @@
                     </li>
 
                     <!-- Our Expertise Dropdown -->
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown custom-dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="expertiseDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Expertise <span class="custom-dropdown-arrow">
+                            Our Expertise
+                            <span class="custom-dropdown-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path d="M6 9L12 15L18 9" stroke="#172A42" stroke-width="1.5" stroke-linecap="round"
@@ -75,21 +80,172 @@
                                 </svg>
                             </span>
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="expertiseDropdown">
-                            <li><a class="dropdown-item" href="#">Boilers</a></li>
-                            <li><a class="dropdown-item" href="#">Economizers, HRSG, WHRB</a></li>
-                            <li><a class="dropdown-item" href="#">Heat Exchangers, Condensers & Coolers</a></li>
-                            <li><a class="dropdown-item" href="#">PHE</a></li>
-                            <li><a class="dropdown-item" href="#">Refractory</a></li>
-                            <li><a class="dropdown-item" href="#">Automation</a></li>
-                            <li><a class="dropdown-item" href="#">Chemical Cleaning Services</a></li>
-                            <li><a class="dropdown-item" href="#">Expansion Bellows</a></li>
+
+                        <!-- phone menu  -->
+                        <ul class="dropdown-menu phone_menu  d-lg-none" aria-labelledby="expertiseDropdown">
+                            <li><a href="#">Repairs and Maintenance</a></li>
+                            <li><a href="#">Repairs and Maintenance</a></li>
+                            <li><a href="#">Repairs and Maintenance</a></li>
+                            <li><a href="#">Repairs and Maintenance</a></li>
                         </ul>
+
+                        <!-- big menu  -->
+                        <div class="mega-dropdown">
+                            <div class="row justify-content-between">
+                                <div class="col-lg-4">
+                                    <div class="mega-dropdown_left">
+                                        <ul class="" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                            <li class="active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                                aria-selected="true">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h3>Repairs and Maintenance</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
+                                            <li id="v-pills-profile-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-profile" role="tab"
+                                                aria-controls="v-pills-profile" aria-selected="false">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h3>Repairs and Maintenance</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
+                                            <li id="v-pills-disabled-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-disabled" role="tab"
+                                                aria-controls="v-pills-disabled" aria-selected="false">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h3>Repairs and Maintenance</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
+                                            <li id="v-pills-messages-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-messages" role="tab"
+                                                aria-controls="v-pills-messages" aria-selected="false">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h3>Repairs and Maintenance</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
+                                            <li id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-settings" role="tab"
+                                                aria-controls="v-pills-settings" aria-selected="false">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h3>Repairs and Maintenance</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
+                                            <li id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-settings" role="tab"
+                                                aria-controls="v-pills-settings" aria-selected="false">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h3>Repairs and Maintenance</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="mega-dropdown_right">
+                                        <div class="tab-content " id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                                aria-labelledby="v-pills-home-tab" tabindex="0">
+
+                                                <div class="row g-4">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div>
+                                                            <h2 class="submenu_right_top_head">Repairs and Maintenance
+                                                            </h2>
+                                                        </div>
+                                                        <div>
+                                                            <a href="javascript:void(0)"
+                                                                class="main_btn d-inline-block">View all
+                                                                <span class="btn_svg">
+                                                                    <img src="./images/blue_gear.svg" alt=""
+                                                                        class="img-fluid">
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="mega_right_bottm">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <div class="mega_right_bottm_child">
+                                                                <h4>Heat Exchangers</h4>
+                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
+                                                                    sagittis nisl venenatis platea montes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="mega_right_bottm">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <div class="mega_right_bottm_child">
+                                                                <h4>Heat Exchangers</h4>
+                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
+                                                                    sagittis nisl venenatis platea montes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="mega_right_bottm">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <div class="mega_right_bottm_child">
+                                                                <h4>Heat Exchangers</h4>
+                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
+                                                                    sagittis nisl venenatis platea montes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="mega_right_bottm">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <div class="mega_right_bottm_child">
+                                                                <h4>Heat Exchangers</h4>
+                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
+                                                                    sagittis nisl venenatis platea montes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                                aria-labelledby="v-pills-profile-tab" tabindex="0">...2</div>
+                                            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                                                aria-labelledby="v-pills-disabled-tab" tabindex="0">...3</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                                aria-labelledby="v-pills-messages-tab" tabindex="0">...4</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                                aria-labelledby="v-pills-settings-tab" tabindex="0">...5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
 
                     <!-- Static Links -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Industries We Serve</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./project.php">Projects</a></li>
 
                     <!-- Our Solutions Dropdown -->
                     <li class="nav-item dropdown">
@@ -128,7 +284,7 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.php">Contact Us</a></li>
                 </ul>
                 <!-- Right Icons (Search & Language) -->
                 <div class="d-flex gap-2 ms-4 align-items-center">
@@ -166,9 +322,8 @@
                 </div>
             </div>
 
-
         </div>
     </nav>
 </header>
 
-<body>
+<body></body>
