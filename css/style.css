@@ -251,27 +251,6 @@ a{text-decoration: none;color: var(--para);}
   border-image-repeat: stretch;}
 /* result */
 
-/* .abt_ctnt,.abt_img_2{  border-top-width: 10px; 
-  border-image-source: url('../images/border_top.svg');
-  border-image-slice: 10 10 0 10; 
-  border-image-width: 10px; 
-  border-image-repeat: stretch; 
-  border-right: none;
-  border-left: none;
-  border-bottom: none;} */
-  /* .border_btm{border-bottom-width: 10px;
-    border-bottom-style: solid;
-    border-image-source: url('../images/border_top.svg');
-    border-image-slice: 0 10 10 10; 
-    border-image-width: 10px;
-    border-image-repeat: stretch;
-    border-top: none;
-    border-left: none;
-    border-right: none;} */
-
-    /* process */
-    /* .process .row .col-lg-6:first-child{padding-right: 50px;} */
-    /* .process .row .col-lg-6:last-child{} */
     .bd_left{
       border-left: 1px solid var(--wb-grey);
     padding-left: 30px;

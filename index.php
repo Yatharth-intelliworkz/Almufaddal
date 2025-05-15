@@ -407,7 +407,7 @@
                 <h3 class="main_head">Trusted by Industry Leaders</h3>
             </div>
         </div>
-        <div class="row   justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="test_face">
                     <div class="test_face_slider">
