@@ -38,21 +38,21 @@
     <div class="boiler_slider">
         <div class="boiler_slide">
             <img class="img-fluid" src="images/boiler-slider1.png" alt="">
-            <div class="boiler_slide_child">
+            <div class="boiler_slide_child col-lg-8">
                 <span><img src="images/Vector (20).png" alt=""></span>
                 <p>Lorem ipsum dolor</p>
             </div>
         </div>
         <div class="boiler_slide">
             <img class="img-fluid" src="images/boiler-slider3.png" alt="">
-            <div class="boiler_slide_child">
+            <div class="boiler_slide_child col-lg-8">
                 <span><img src="images/Vector (20).png" alt=""></span>
                 <p>Lorem ipsum dolor</p>
             </div>
         </div>
         <div class="boiler_slide">
             <img class="img-fluid" src="images/boiler-slider2.png" alt="">
-            <div class="boiler_slide_child">
+            <div class="boiler_slide_child col-lg-8">
                 <span><img src="images/Vector (20).png" alt=""></span>
                 <p>Lorem ipsum dolor</p>
             </div>
@@ -60,13 +60,10 @@
     </div>
 
     <div class="boiler_slider_arrow">
-        <div class="d-flex justify-content-between align-items-center">
-
             <div class="d-flex gap-3 align-items-center">
                 <img src="images/slider_leftarrow.svg" alt="left" id="boiler-prev" style="cursor: pointer;">
                 <img src="images/slider_rightarrow.svg" alt="right" id="boiler-next" style="cursor: pointer;">
             </div>
-        </div>
     </div>
 </section>
 
@@ -75,7 +72,7 @@
         <div class="row gy-5">
             <div class="col-12">
                 <h2 class="main_h1_head">Inspection</h2>
-                <div class="row">
+                <div class="row gy-3">
                     <div class="col-lg-5">
                         <p>To ensure your boiler system operates at peak efficiency and safety, we provide thorough
                             inspection services both during vessel stay and while sailing. Our inspections are carried
@@ -93,7 +90,7 @@
             </div>
             <div class="col-12">
                 <h2 class="main_h1_head">Repair & Emergency Support</h2>
-                <div class="row">
+                <div class="row gy-3">
                     <div class="col-lg-7">
                         <img class=" img-fluid" src="images/boiler-repair2.png" alt="">
                     </div>
@@ -111,7 +108,7 @@
             </div>
             <div class="col-12">
                 <h2 class="main_h1_head">Preventive Maintenance</h2>
-                <div class="row">
+                <div class="row gy-3">
                     <div class="col-lg-5">
                         <p>We believe that prevention is better than cure. Our proactive preventive maintenance program
                             is designed to keep your boiler systems running at optimal efficiency and safety. Through

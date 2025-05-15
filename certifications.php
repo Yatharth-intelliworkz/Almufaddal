@@ -13,7 +13,7 @@
 <!-- section circle Certifications-->
 <section class="certificates section-space">
     <div class="ym_container">
-        <div class="certi_wrapper g-5 row">
+        <div class="certi_wrapper g-4 g-lg-5 row">
             <div class="col-md-3">
                 <a href="./images/astron_certi.png" data-fancybox="gallery" data-caption="certi-1">
                     <div class="certi_border">

@@ -115,7 +115,7 @@
                 </a>
             </div>
         </div>
-        <div class="row gx-md-5">
+        <div class="row gx-md-5 gy-4">
             <div class="col-sm-12 col-lg-6">
                 <img src="./images/about_2.jpg" alt="" class="img-fluid bd_radius">
             </div>
@@ -140,7 +140,7 @@
 <!-- service section -->
 <section class="service">
     <div class="ym_container">
-        <div class="row">
+        <div class="row mb-4 mb-lg-auto">
             <div class="col-sm-6 col-lg-6">
                 <h2 class="text-left main_head">Our Services</h2>
             </div>
@@ -268,11 +268,11 @@
 <!-- proces  -->
 <section class="process">
     <div class="ym_container">
-        <div class="row mb-4 align-items-center">
+        <div class="row mb-4">
             <div class="col-sm-12 col-lg-7">
                 <h2 class="main_head">Working on Every Step with You</h2>
             </div>
-            <div class="col-sm-12 col-lg-5 text-md-end text-start">
+            <div class="col-sm-12 col-lg-5 text-end d-none d-lg-block">
                 <a href="javascript:void(0)" class="main_btn d-inline-block">Get in Touch
                     <span class="btn_svg">
                         <img src="./images/blue_gear.svg" alt="" class="img-fluid">
@@ -286,9 +286,17 @@
                     and transparent process to ensure your projects are completed on time, within budget, and to the
                     highest standards.</p>
             </div>
+
+             <div class="col-sm-12 col-lg-5 d-lg-none">
+                <a href="javascript:void(0)" class="main_btn d-inline-block">Get in Touch
+                    <span class="btn_svg">
+                        <img src="./images/blue_gear.svg" alt="" class="img-fluid">
+                    </span>
+                </a>
+            </div>
         </div>
         <div class="row gx-md-5">
-            <div class="col-sm-12 col-lg-6 mb-4">
+            <div class="col-sm-12 col-lg-6 mb-4 d-none d-lg-block">
                 <img src="./images/solution_img.jpg" alt="solution" class="img-fluid">
             </div>
             <div class="col-sm-12 col-lg-6">
@@ -299,7 +307,7 @@
                                 <h4>01</h4>
                                 <h6>Consultation & Evaluation</h6>
                             </div>
-                            <img src="./images/process_1.svg" alt="" class="img-fluid">
+                            <img src="./images/process_1.svg" alt="" class="img-fluid  d-none d-lg-block">
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
                             Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
@@ -315,7 +323,7 @@
                                 <h4>02</h4>
                                 <h6>Consultation & Evaluation</h6>
                             </div>
-                            <img src="./images/process_2.svg" alt="" class="img-fluid">
+                            <img src="./images/process_2.svg" alt="" class="img-fluid d-none d-lg-block">
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
                             Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
@@ -331,7 +339,7 @@
                                 <h4>03</h4>
                                 <h6>Consultation & Evaluation</h6>
                             </div>
-                            <img src="./images/process_3.png" alt="" class="img-fluid">
+                            <img src="./images/process_3.png" alt="" class="img-fluid d-none d-lg-block">
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
                             Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
@@ -407,7 +415,7 @@
                 <h3 class="main_head">Trusted by Industry Leaders</h3>
             </div>
         </div>
-        <div class="row   justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="test_face">
                     <div class="test_face_slider">
@@ -513,8 +521,13 @@
                                 efficiency. Their team is highly professional, responsive, and always delivers
                                 beyond
                                 expectations</p>
-                            <p class="test_name">Mr. Ahmed Al Mansoori</p>
-                            <p class="test_post">Owner & CEO</p>
+                            <div class="test_writer">
+                                <img src="./images/test_user_img.svg" alt="Mr. Ahmed Al Mansoori" class="img-fluid">
+                                <div>
+                                    <p class="test_name">Mr. Ahmed Al Mansoori</p>
+                                    <p class="test_post">Owner & CEO</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">KC Marine Services</h3>
@@ -598,13 +611,59 @@
             </div>
             <div class="col-lg-12">
                 <div class="network_slider">
-                    <img src="./images/network_1.png" alt="" class="img-fluid me-5">
-                    <img src="./images/network_2.png" alt="" class="img-fluid me-5">
-                    <img src="./images/network_2.png" alt="" class="img-fluid me-5">
-                    <img src="./images/network_2.png" alt="" class="img-fluid me-5">
-                    <img src="./images/network_2.png" alt="" class="img-fluid me-5">
-                    <img src="./images/network_1.png" alt="" class="img-fluid me-5">
-                    <img src="./images/network_2.png" alt="" class="img-fluid me-5">
+                    <img src="./images/network_1.png" alt="" class="img-fluid mx-sm-3">
+                    <img src="./images/network_2.png" alt="" class="img-fluid mx-sm-3">
+                    <img src="./images/network_2.png" alt="" class="img-fluid mx-sm-3">
+                    <img src="./images/network_2.png" alt="" class="img-fluid mx-sm-3">
+                    <img src="./images/network_2.png" alt="" class="img-fluid mx-sm-3">
+                    <img src="./images/network_1.png" alt="" class="img-fluid mx-sm-3">
+                    <img src="./images/network_2.png" alt="" class="img-fluid mx-sm-3">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Request_home">
+    <div class="ym_container">
+        <div class="Request_Quote_top">
+            <h1 class="main_head">Maximize Efficiency, Minimize Downtime.</h1>
+            <p>We deliver end-to-end solutions for industrial boilers and heat exchangers, ensuring maximum efficiency, safety, and reliability. Our expert services in Manufacturing, Repairs, and Maintenance are tailored for the Marine, Oil & Gas, and Power Plant industries. With a focus on innovation and excellence, we help you maintain seamless operations and extend the lifespan of your equipment.</p>
+        </div>
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6"> 
+                <div class="Request_Quote_bot">
+                  <img class="img-fluid" src="images/project_from.png" alt="worker"> 
+                  <img class="img-fluid Request_Quote_bot_left_icon " src="images/project_form_icon.png" alt="">
+                </div>
+        </div>
+            <div class="col-lg-6">
+                <div>
+                    <form class="apply-form contact_input">
+                        <!-- First Name and Last Name in a single row -->
+                        <h4 class="sub_head mb-0">Request a Quote</h4>
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-lg-6 form_item"> <label for="firstName">Full Name * :</label><br> <input type="text" id="firstName" name="firstName" required="" placeholder="John Carter"> </div>
+                                <div class="col-lg-6 form_item"> <label for="lastName">Email Id * :</label><br> <input type="text" id="lastName" name="lastName" required="" placeholder="John@gmail.com"> </div>
+                                <div class="col-lg-6 form_item"> <label for="phone">Phone Number * :</label><br>
+                                <div class="phone-input-wrapper">
+                                    <div class="select-wrapper">
+                                        <select class="country-select">
+                                        <option value="+1">US</option>
+                                        <option value="+91">India</option>
+                                        <option value="+44">UK</option>
+                                        </select>
+                                    </div>
+                                       <input type="text" class="phone-number" placeholder="+1 (555) 000-0000">
+                                </div>
+                            </div>
+                                <div class="col-lg-6 form_item"> <label for="Pincode">Pincode * :</label><br> <input type="number" id="Pincode" name="Pincode" required="" placeholder="893320"> </div>
+                                <div class="col-lg-12 form_item"> <label for="">Subject* :</label><br> <input type="text" id="" name="" required="" placeholder="Lorem ipsum dolor sit amet consectetur. "> </div>
+                                <div class="col-md-12 form_item"> <label for="uploadResume" class="form-label">Message :</label> <textarea id="message" name="message" rows="3" placeholder="Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas. Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat" style="resize: none;"></textarea> </div>
+                            </div> <a href="javascript:void(0)" class="main_btn">Submit <span class="btn_svg"> <img src="./images/blue_gear.svg" alt="" class="img-fluid"> </span> </a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -612,7 +671,7 @@
 </section>
 
 <!-- request -->
-<section class="request">
+<!-- <section class="request">
     <div class="ym_container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -631,6 +690,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include('footer.php') ?>

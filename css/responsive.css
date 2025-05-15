@@ -16,6 +16,10 @@
   .text_wrap {
     top: -50px;
   }
+
+  .navbar-nav {
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width:1440px) {
@@ -61,6 +65,19 @@
 
   .project_tabs li {
     font-size: unset;
+  }
+
+  .blog_wrapper {
+    padding: 20px;
+  }
+
+  .blog_title {
+    font-size: 25px;
+  }
+
+  .blog_desc {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
 
@@ -114,10 +131,6 @@
     font-size: 35px;
   }
 
-  .navbar-nav {
-    gap: 15px;
-  }
-
   .mission-img,
   .vision-img {
     max-width: 400px;
@@ -127,14 +140,25 @@
     padding: 60px 40px;
   }
 
-  .boiler_auxiliary_bot_lt p 
-  {
+  .boiler_auxiliary_bot_lt p {
     font-size: 20px;
+  }
+
+  .expert_1 {
+    padding: 30px 50px;
   }
 
 }
 
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1240px) {
+  .navbar-nav {
+    gap: 0;
+  }
+
+  #navbarNav .nav-item .nav-link::before {
+    left: -5px;
+  }
+}
 
 @media screen and (max-width:1199px) {}
 
@@ -176,7 +200,8 @@
   }
 
   .boiler_auxiliary_bot_lt p {
-    font-size: unset;
+    font-size: 16px;
+    line-height: 23px;
   }
 }
 
@@ -313,8 +338,7 @@
   }
 
   .custom-nav {
-    bottom: 20%;
-    left: 44%;
+    display: none;
   }
 
   .service .sec_head h2,
@@ -392,12 +416,13 @@
     padding: 20px;
   }
 
-  .Request_Quote_bot .Request_Quote_bot_left_icon {
+  .Request_Quote_bot {
     display: none;
   }
 
   .boiler_auxiliary_child {
     padding: 60px 10px;
+    padding-bottom: 30px;
   }
 
   .boiler_slider_arrow {
@@ -409,10 +434,52 @@
     margin: 0 10px;
   }
 
-  .foot_logo
-  {
+  .foot_logo {
     width: 120px;
   }
+
+  .scroll_dwn {
+    right: 40%;
+  }
+
+  .expert_1 {
+    padding: 30px 20px;
+  }
+
+  .result_info {
+    padding: 20px;
+  }
+
+  .processslider .slick-dots {
+    bottom: -20px;
+    justify-content: center;
+  }
+
+  .processslider .slick-dots li {
+    width: 50px;
+  }
+
+  .service_slider .slick-dots li {
+    width: 50px;
+  }
+
+  .face_slide_bg {
+    margin: auto;
+  }
+
+  .Request_home {
+    margin: 50px 0;
+  }
+
+  .boiler_slider_main {
+    margin-top: 40px;
+  }
+
+
+  /* .contact_banner_ctnt 
+  {
+    pa
+  } */
 
 }
 

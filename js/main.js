@@ -57,9 +57,10 @@ document.addEventListener('DOMContentLoaded', function () {
     cssEase: 'linear',
     responsive: [
       {
-        breakpoint: 576,
+        breakpoint: 768,
         settings: {
           arrows: false,
+          dots: true,
           autoplaySpeed: 2000,
           speed: 2000,
         }
@@ -157,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 1,
         }
       }
     ]
@@ -279,9 +280,9 @@ $('.boiler_slider').slick({
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
-         dots: true,
-         autoplay: true,
-         centerMode: false,
+        dots: true,
+        autoplay: true,
+        centerMode: false,
       }
     }
   ]
