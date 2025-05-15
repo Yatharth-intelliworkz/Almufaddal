@@ -165,7 +165,7 @@
             <h1 class="main_head">Maximize Efficiency, Minimize Downtime.</h1>
             <p>We deliver end-to-end solutions for industrial boilers and heat exchangers, ensuring maximum efficiency, safety, and reliability. Our expert services in Manufacturing, Repairs, and Maintenance are tailored for the Marine, Oil & Gas, and Power Plant industries. With a focus on innovation and excellence, we help you maintain seamless operations and extend the lifespan of your equipment.</p>
         </div>
-        <div class="row gy-5 justify-content-between align-items-center">
+        <div class="row justify-content-between align-items-center">
             <div class="col-lg-6"> 
                 <div class="Request_Quote_bot">
                   <img class="img-fluid" src="images/project_from.png" alt="worker"> 

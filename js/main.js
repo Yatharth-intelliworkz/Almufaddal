@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
     arrows: false,
     loop: true,
     asNavFor: '.test_msg_slider',
-    centerMode: false,
+    centerMode: true,
     focusOnSelect: true,
     responsive: [
       {

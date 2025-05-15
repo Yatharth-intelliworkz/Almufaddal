@@ -79,6 +79,10 @@
     font-size: 14px;
     line-height: 25px;
   }
+
+  .ct_box {
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width:1366px) {
@@ -144,8 +148,18 @@
     font-size: 20px;
   }
 
-  .expert_1 {
+  .expert_1,
+  .expert_2 {
     padding: 30px 50px;
+  }
+
+  .expert_1::after,
+  .expert_1::before,
+  .expert_2::after,
+  .expert_2::before {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
   }
 
 }
@@ -202,6 +216,10 @@
   .boiler_auxiliary_bot_lt p {
     font-size: 16px;
     line-height: 23px;
+  }
+
+  .about_left::after {
+    content: unset;
   }
 }
 
@@ -442,8 +460,25 @@
     right: 40%;
   }
 
-  .expert_1 {
+  .expert_1,
+  .expert_2 {
     padding: 30px 20px;
+  }
+
+    .expert_1::after,
+  .expert_1::before,
+  .expert_2::after,
+  .expert_2::before {
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+  }
+  
+  .testimonial::after
+  {
+     height: 150px;
+     width: 150px;
+     background-size: cover;
   }
 
   .result_info {
@@ -473,6 +508,11 @@
 
   .boiler_slider_main {
     margin-top: 40px;
+  }
+  
+  .process_vector::after
+  {
+    content: unset;
   }
 
 
