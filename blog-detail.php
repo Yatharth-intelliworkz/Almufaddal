@@ -4,7 +4,7 @@
         <!-- <img src="./images/blog-bg.png" alt="blog-bg" class="img-fluid w-100"> -->
         <div class="contact_banner_ctnt"style="background-image:url(./images/blog-bg.png);">
             <div class="breadcrumbs">
-                <a href="#"><b>Home</b></a> > <span>Blogs</span>
+                <a href="#"><b>Home</b></a> > <a href="#"><b>Blogs</b></a> > <span>Boosting Efficiency with Boiler Maintenance</span>
             </div>
             <h1 class="main_white_head col-md-12 col-xl-12 col-xxl-12">Boosting Efficiency with <br> Boiler Maintenance</h1>
         </div>
@@ -13,7 +13,7 @@
 
 <section class="section-space-pt">
     <div class="ym_container">
-        <div class="row">
+        <div class="row mb-4">
              <p>Boilers play a critical role in various industries, providing heat and energy for essential operations. However, without proper maintenance, their efficiency can decline, leading to higher energy costs, increased downtime, and potential safety hazards. Regular boiler maintenance not only enhances performance but also extends the lifespan of the equipment. Here’s how you can maximize efficiency through proper boiler upkeep.</p>
         </div>
         <div class="row">
@@ -36,13 +36,13 @@
                     <p class="mb-0">Many industries require compliance with safety and environmental regulations. Regular inspections and servicing ensure that the boiler meets industry standards, avoiding fines and legal issues.</p>
                 </div>
             </div>
-            <div class="col-lg-6 col-xxl-6">
-                <img src="images\qm_1.png" alt="" class="img-fluid bd_radius d-block ms-auto">
+            <div class="col-lg-6 col-xxl-6 mt-3 mt-lg-auto">
+                <img src="images/blog-Maintenance.png" alt="" class="img-fluid bd_radius d-block ms-auto">
             </div>
         </div>
     </div>
 </section>
-<section class="section-space-pt blog-description">
+<section class="blog-description">
     <div class="ym_container">
         <div class="row">
             <div class="col-lg-12 col-xxl-12">
@@ -75,19 +75,19 @@
         </div>
     </div>
 </section>
-<section class="section-space-pt">
+<section class="my-3 my-lg-5">
     <div class="ym_container">
         <a href="#">
           <img src="./images/industrial-blogdetail.png" alt="industrial" class="img-fluid">
         </a>
     </div>
 </section>
-<section class="section-space-pt">
+<section>
     <div class="ym_container">
-        <div class="row">
+        <div class="row mb-4">
             <h2 class="sub_head">Conclusion</h2>
-            <div class="">
-                <p class="mb-0">Boiler maintenance is essential for optimizing efficiency, ensuring safety, and extending the lifespan of the equipment. A proactive maintenance schedule can help prevent costly repairs, reduce energy consumption, and keep operations running smoothly. Investing in routine boiler servicing is a smart strategy for any business looking to enhance productivity and sustainability. By prioritizing regular inspections and servicing, you can keep your boiler in top condition, maximizing performance and minimizing operational costs.</p>
+            <div>
+                <p>Boiler maintenance is essential for optimizing efficiency, ensuring safety, and extending the lifespan of the equipment. A proactive maintenance schedule can help prevent costly repairs, reduce energy consumption, and keep operations running smoothly. Investing in routine boiler servicing is a smart strategy for any business looking to enhance productivity and sustainability. By prioritizing regular inspections and servicing, you can keep your boiler in top condition, maximizing performance and minimizing operational costs.</p>
             </div>
         </div>
     </div>

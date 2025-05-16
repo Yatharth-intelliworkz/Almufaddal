@@ -39,6 +39,11 @@ a {
 }
 
 /* comman classes */
+
+.section-space-mt {
+  margin-top: 100px;
+}
+
 .section-space-pt {
   padding-top: 80px;
 }
@@ -153,7 +158,8 @@ a {
 .ind_box,
 .contact,
 .network,
-.request {
+.request,
+.qua_mana_two {
   margin-top: 80px;
 }
 
@@ -658,9 +664,15 @@ input:focus-visible {
 /* process */
 /* .process .row .col-lg-6:first-child{padding-right: 50px;} */
 /* .process .row .col-lg-6:last-child{} */
+
+.privacy-policy {
+  margin-top: 100px;
+}
+
 .bd_left {
   border-left: 1px solid var(--wb-grey);
-  padding-left: 30px;
+  padding-left: 50px;
+  /* margin-top: 23px; */
 }
 
 .bd_right {
@@ -896,7 +908,8 @@ input:focus-visible {
 /* service slider */
 
 /* solution */
-.expert_1,.expert_2 {
+.expert_1,
+.expert_2 {
   background-color: var(--wb-main-blue);
   position: relative;
   color: var(--white) !important;
@@ -932,7 +945,7 @@ input:focus-visible {
 
 .expert_2::after {
   content: '';
-   background-image: url(../images/testimonial_vaec.png);
+  background-image: url(../images/testimonial_vaec.png);
   background-repeat: no-repeat;
   height: 260px;
   width: 260px;
@@ -1116,22 +1129,18 @@ input:focus-visible {
   line-height: 28px;
   margin-bottom: 0;
   font-weight: 500;
-  color: var(--white);
 }
 
 .test_post {
   font-size: 16px;
   margin: 0;
-  color: var(--white);
-
 }
 
 .test_face {
   margin-bottom: 50px;
 }
 
-.test_face_slider .draggable
-{
+.test_face_slider .draggable {
   padding: 0 !important;
 }
 
@@ -1209,7 +1218,7 @@ footer {
   background-color: var(--wb-main-blue);
   color: var(--white);
   padding: 50px 30px 30px;
-  margin-top: 50px;
+  margin-top: 120px;
 }
 
 .ft_head {
@@ -1269,16 +1278,14 @@ footer {
 
 .white_bd_left {
   border-left: 1px solid var(--wb-grey);
-  padding:0 40px;
+  padding: 0 40px;
 }
 
-.foot_logo
-{
+.foot_logo {
   margin-bottom: 36px;
 }
 
-.ft_right_con
-{
+.ft_right_con {
   display: flex;
   gap: 28px;
   margin: 33px 0;
@@ -1513,7 +1520,7 @@ footer {
   left: -20px;
   top: 49px;
   height: 2px;
-  background-color: var(--color-gray-50);
+  background-color: var(--wb-grey);
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
@@ -1550,7 +1557,7 @@ footer {
   font-size: 1rem;
   font-weight: 600;
   padding-bottom: 0.75rem;
-  color: var(--black);
+  color: var(--para);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1599,7 +1606,7 @@ footer {
 } */
 .h--timeline-date--selected {
   pointer-events: none;
-  color: var(--wb-orange);
+  color: var(--wb-main-blue);
   text-align: center;
   font-size: 60px;
   font-style: normal;
@@ -1640,7 +1647,7 @@ footer {
   border-style: solid;
   border-color: var(--color-gray-50);
   transition: border-color 0.3s;
-  background: var(--White);
+  background: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1765,7 +1772,7 @@ footer {
 }
 
 .h--timeline-event-title {
-  color: var(--whitey);
+  color: var(--white);
   text-align: center;
   font-family: Rubik;
   font-size: 60px;
@@ -1799,9 +1806,9 @@ footer {
   /* 155.556% */
 }
 
-.h--timeline-event-date::before {
+/* .h--timeline-event-date::before {
   content: '- ';
-}
+} */
 
 @-webkit-keyframes cd-enter-right {
   0% {
@@ -1918,6 +1925,11 @@ footer {
   border-bottom: 1px solid var(--wb-grey);
 }
 
+.director_section
+{
+
+}
+
 .director_name {
   color: var(--wb-orange);
   font-size: 20px;
@@ -2006,6 +2018,10 @@ strong {
   left: 90%;
 }
 
+.qua_mana_one {
+  margin-top: 100px;
+}
+
 /* / qm page / */
 
 /* / blog listing / */
@@ -2018,6 +2034,11 @@ strong {
   border: 1px solid var(--wb-grey);
 }
 
+.blog-description {
+  margin-top: 30px;
+
+}
+
 .blog-description .qm_box {
   padding-bottom: 14px;
   margin-top: 10px;
@@ -2026,7 +2047,7 @@ strong {
 .blog_date {
   color: var(--para);
   font-size: 16px;
-  margin: 0;
+  margin-bottom: 4px;
   font-weight: 400;
 }
 
@@ -2162,7 +2183,17 @@ strong {
 
 .current-vacancies hr {
   margin: 50px 0px;
-  color: var(--gold);
+  border: 1px solid var(--wb-grey);
+}
+
+.vacancies_select
+{
+  color: var(--para);
+  font-weight: 400;
+  padding: 12px 20px;
+  border: 1px solid var(--wb-grey);
+  border-radius: 5px;
+  margin-top: 30px;
 }
 
 /* marine-boiler-engineer-job-detail css*/
@@ -2248,6 +2279,12 @@ strong {
   padding: 12px;
   border-radius: 10px;
 
+}
+
+.certi_title
+{
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* project */

@@ -221,6 +221,34 @@
   .about_left::after {
     content: unset;
   }
+
+  .h--timeline-event-title {
+    font-size: 28px;
+  }
+
+  .h--timeline-dates {
+    display: none;
+  }
+
+  .h--timeline-event-content {
+    top: 5%;
+  }
+
+  .h--timeline-navigation {
+    top: 100%;
+  }
+
+  .h--timeline-navigation--prev {
+    left: 36%;
+  }
+
+  .h--timeline-navigation--next {
+    right: 36%;
+  }
+
+  .h--timeline-container {
+    height: 0;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -243,9 +271,15 @@
   #navbarNav .nav-item .nav-link::before {
     display: none;
   }
+  
+  #navbarNav .nav-item .nav-link
+  {
+    line-height: 30px;
+  }
 
   .navbar-nav {
     gap: 5px;
+    margin: 20px 0;
   }
 
   .ym_container {
@@ -279,11 +313,17 @@
   .testimonial,
   .industry_info,
   .ind_box,
-  .contact {
+  .contact,
+  .qua_mana_two,
+  .qua_mana_one,
+  .privacy-policy,
+  .section-space-mt,
+  footer {
     margin-top: 50px;
   }
 
-  .process .bd_left {
+  .process,
+  .privacy-policy .bd_left {
     margin-top: 30px;
   }
 
@@ -371,7 +411,7 @@
 
   .white_bd_left {
     border-left: none;
-    padding-left: unset;
+    padding: 0;
   }
 
   .bd_left {
@@ -465,7 +505,7 @@
     padding: 30px 20px;
   }
 
-    .expert_1::after,
+  .expert_1::after,
   .expert_1::before,
   .expert_2::after,
   .expert_2::before {
@@ -473,12 +513,11 @@
     width: 120px;
     background-size: cover;
   }
-  
-  .testimonial::after
-  {
-     height: 150px;
-     width: 150px;
-     background-size: cover;
+
+  .testimonial::after {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
   }
 
   .result_info {
@@ -509,12 +548,33 @@
   .boiler_slider_main {
     margin-top: 40px;
   }
-  
-  .process_vector::after
-  {
+
+  .process_vector::after {
     content: unset;
   }
 
+  .apply-card {
+    padding: 25px;
+  }
+
+
+  .two-column-list {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .sub_title {
+    font-size: 12px;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+  
+  .test_name
+  {
+    font-size: 18px;
+  }
 
   /* .contact_banner_ctnt 
   {

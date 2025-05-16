@@ -10,7 +10,7 @@
         </div>
     </div>
 </section>
-<section class="section-space">
+<section class="privacy-policy">
     <div class="ym_container">
         <div class="row">
             <!-- Sidebar -->
@@ -37,7 +37,7 @@
             </div>
 
             <!-- Main Content -->
-            <main class="col-md-8 bd_left ps-5">
+            <main class="col-md-8 bd_left">
                 <section id="your-rights" class="mb-4">
                     <h2 class="sub_head">Lorem ipsum dolor sit ametYour Rights.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </p>

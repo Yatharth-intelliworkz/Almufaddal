@@ -32,13 +32,16 @@
                             <div class=" col-md-8">
                                 <em class="h--timeline-event-date">1938 - The Beginning of Our Journey</em>
                                 <h2 class="h--timeline-event-title">Shuja Metal Centre, Mumbai, India</h2>
-
                                 <p class="h--timeline-event-description">
                                     Founded in Mumbai, India, Shuja Metal Centre laid the foundation for excellence in metal fabrication and industrial engineering.
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                         <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
 
                     </li>
 
@@ -53,7 +56,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <li class="h--timeline-event text-component">
@@ -67,7 +74,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <li class="h--timeline-event text-component">
@@ -81,7 +92,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <li class="h--timeline-event text-component">
@@ -95,7 +110,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <li class="h--timeline-event text-component">
@@ -109,7 +128,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <li class="h--timeline-event text-component">
@@ -123,7 +146,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <li class="h--timeline-event text-component">
@@ -137,7 +164,11 @@
                                 </p>
                             </div>
                         </div>
-                        <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img">
+                        <!-- <img src="./images/timeline_img.png" alt="" class="img-fluid timeline_img"> -->
+                          <picture>
+                            <source media="(min-width:576px)" srcset="./images/timeline_img.png" class="img-fluid bd_rd_10">
+                            <img src="./images/indsutry_mobileimg (1).webp" alt="Flowers" class="img-fluid bd_rd_10">
+                        </picture>
                     </li>
 
                     <!-- <li class="h--timeline-event text-component">
@@ -323,11 +354,11 @@
         </div>
     </div>
 </section>
-<section class="section-space ">
+<section class="section-space-pt">
    <div class="ym_container">
       <div class="row">
           <div class="col-md-4 order-2 order-md-1">
-            <img src="./images/director.png" alt="director" class="img-fluid w-100 pe-md-4">
+            <img src="./images/director.png" alt="director" class="w-100  pe-md-5">
           </div>
           <div class="col-md-8 order-1 order-md-2 bd_left ">
              <h2 class="sub_head">A Message from Our Managing Director</h2>
@@ -338,7 +369,7 @@
             </div>
       </div>
       <div class="row section-space pb-0">
-          <div class="col-md-8 ">
+          <div class="col-md-8 pe-md-5">
              <h2 class="sub_head">A Message from Our Managing Director</h2>
              <p>At Al Mufaddal Boiler, we believe that engineering is not just about machinery – it's about people, innovation, and commitment. Over the years, we have built a reputation for delivering high-quality, reliable, and sustainable solutions. Our team of dedicated professionals works tirelessly to ensure that every project meets the highest industry standards.</p>
              <p>As we continue to expand globally, our focus remains on excellence, efficiency, and customer satisfaction. Thank you for trusting us as your engineering partner.</p>
@@ -346,7 +377,7 @@
              <p class="f-16">Managing Director</p>
             </div>
             <div class="col-md-4 bd_left">
-            <img src="./images/director.png" alt="director" class="img-fluid w-100">
+            <img src="./images/director.png" alt="director" class="w-100">
           </div>
       </div>
    </div>

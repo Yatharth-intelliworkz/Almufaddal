@@ -2,15 +2,15 @@
 <section class="contact_banner">
     <div class="container-fluid p-0">
         <!-- <img src="./images/tm_bg.png" alt="Terms and Conditions" class="img-fluid w-100"> -->
-        <div class="contact_banner_ctnt" style="background-image:url(./images/contact_bg.png);">
+        <div class="contact_banner_ctnt" style="background-image:url(./images/life_bg.png);">
             <div class="breadcrumbs">
-                <a href="#"><b>Home </b> ></a> <a href="#"><b>Career </b> ></a>  <span>Terms and Conditions</span>
+                <a href="#"><b>Home </b> ></a> <a href="#"><b>Career </b> ></a>  <span>Life at AME</span>
             </div>
             <h1 class="main_white_head col-md-12 col-xl-12 col-xxl-12">Life at AME</h1>
         </div>
     </div>
 </section>
-<section class="section-space-pt">
+<section class="section-space-mt">
     <div class="ym_container">
         <div class="row gy-4">
             <div class="col-md-6">
@@ -98,11 +98,11 @@
         </div>
     </div>
 </section>
-<section class="section-space">
+<section class="section-space-pt">
  <div class="ym_container">
     <div class="row text-center justify-content-center">
-        <div class="col-md-6 mb-md-4">
-           <h2 class="main_head">Join Us Today!</h2>
+        <div class="col-md-6">
+           <h2 class="main_head mb-5">Join Us Today!</h2>
            <p>Are you ready to make a difference in the boiler engineering industry? Explore our career opportunities and become part of a team that values technical expertise, innovation, and teamwork.</p>
             <a href="javascript:void(0)" class="main_btn mt-3 d-inline-block">View Current Vacancies
                 <span class="btn_svg">
