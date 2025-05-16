@@ -326,10 +326,10 @@
 <section class="section-space ">
    <div class="ym_container">
       <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 order-2 order-md-1">
             <img src="./images/director.png" alt="director" class="img-fluid w-100 pe-md-4">
           </div>
-          <div class="col-md-8 bd_left">
+          <div class="col-md-8 order-1 order-md-2 bd_left ">
              <h2 class="sub_head">A Message from Our Managing Director</h2>
              <p>At Al Mufaddal Boiler, we believe that engineering is not just about machinery – it's about people, innovation, and commitment. Over the years, we have built a reputation for delivering high-quality, reliable, and sustainable solutions. Our team of dedicated professionals works tirelessly to ensure that every project meets the highest industry standards.</p>
              <p>As we continue to expand globally, our focus remains on excellence, efficiency, and customer satisfaction. Thank you for trusting us as your engineering partner.</p>

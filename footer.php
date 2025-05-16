@@ -1,7 +1,7 @@
 <footer>
     <div class="ym_container">
-        <div class="row">
-            <div class="col-lg-5 pd_right">
+        <div class="row justify-content-between">
+            <div class="col-lg-5 col-xxl-4 pd_right">
                 <!-- <div class="newsletter bd_radius">
                     <h4 class="sub_head text-white">Maximize Efficiency,<br> Minimize Downtime.</h4>
                     <a href="javascript:void(0)" class="main_btn">Request a Consultation<span class="btn_svg">
@@ -21,11 +21,11 @@
                     <h5 class="sub_head">Request<br> a Quote</h4>
                 </div> -->
                 <div class="ft_right_botom">
-                    <img src="./images/ft_logo.svg" alt="" class=" foot_logo img-fluid mb-4">
+                    <img src="./images/ft_logo.svg" alt="logo" class=" foot_logo img-fluid">
                     <p>Partner with Al Mufaddal for expert boiler services and experience the difference. Request a
                         quote and discover how we can save you time and money</p>
-                    <div class="my-4 d-flex gap-4">
-                        <div class="d-flex gap-2 mb-2 social-item white_bd_right">
+                    <div class="ft_right_con">
+                        <div class="d-flex gap-2 social-item white_bd_right">
                             <img src="./images/ft_call.svg" alt="call" width="24" height="24">
                             <a href="tel:+97143472152" target="_blank" class="text-white">+971 4 3472152</a>
                         </div>
@@ -55,9 +55,14 @@
                 <h6 class="ft_head">Quick Links</h6>
                 <ul class="ft_menu">
                     <li><a href="./index.php">Home</a></li>
-                    <li><a href="./industries.php">Industries We Serve</a></li>
-                    <li><a href="./project.php">Projects</a></li>
-                    <li><a href="./contact.php">Get In Touch</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Quality Management</a></li>
+                    <li><a href="">Certifications</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Contact Us</a></li>
                 </ul>
 
             </div>
@@ -75,21 +80,20 @@
                 </ul>
             </div>
             <div class="col-lg-2 white_bd_left">
-                <h6 class="ft_head">About</h6>
-                <ul class="ft_menu">
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Our Heritage</a></li>
-                    <li><a href="./quality-management.php">Quality Management</a></li>
-                </ul>
-                <h6 class="ft_head mt-4">Our Solutions</h6>
+                <h6 class="ft_head">Our Solutions</h6>
                 <ul class="ft_menu">
                     <li><a href="#">Repairs & Maintance </a></li>
                     <li><a href="#">Manufacturers</a></li>
                 </ul>
+                <h6 class="ft_head mt-4">Career</h6>
+                <ul class="ft_menu">
+                    <li><a href="#">Life at AME</a></li>
+                    <li><a href="#">Current Vacancies</a></li>
+                </ul>
             </div>
         </div>
     </div>
-    <hr>
+    <hr class="mt-5">
     <div class="ym_container">
         <div class="d-flex justify-content-between copyrigt_text">
             <a href="./privacy-policy.php" class="text-white">Privacy Policy</a>

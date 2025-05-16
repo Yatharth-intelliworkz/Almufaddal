@@ -107,35 +107,46 @@
             <div class="col-sm-12 col-lg-6">
                 <h2 class="main_head">Engineering Excellence in Boilers & Heat Exchangers</h2>
             </div>
-            <div class="col-sm-12 col-lg-6 text-md-end text-start">
-                <a href="javascript:void(0)" class="main_btn d-inline-block">Get in Touch
-                    <span class="btn_svg">
-                        <img src="./images/blue_gear.svg" alt="" class="img-fluid">
-                    </span>
-                </a>
-            </div>
         </div>
-<<<<<<< HEAD
-        <div class="row gx-md-5">
-=======
         <div class="row gx-md-5 gy-4">
->>>>>>> origin/ravi
             <div class="col-sm-12 col-lg-6">
                 <img src="./images/about_2.jpg" alt="" class="img-fluid bd_radius">
             </div>
             <div class="col-sm-12 col-lg-6">
-                <p>At <b>Al Mufaddal Engineering & Marine Services</b>, we are committed to delivering top-tier
-                    <b>boiler maintenance</b>, <b>heat exchanger repairs</b>, <b>refractory solutions</b>, and
-                    <b>industrial automation</b> to keep your operations running at peak performance.
-                </p>
-                <p>With a proven track record in the <b>Marine</b>, <b>Oil & Gas</b>, and <b>Power Plant industries</b>,
-                    we ensure reliability, safety, and efficiency in every project we undertake</p>
+                <div class="about_left">
+                    <p>At <b>Al Mufaddal Engineering & Marine Services</b>, we are committed to delivering top-tier
+                        <b>boiler maintenance</b>, <b>heat exchanger repairs</b>, <b>refractory solutions</b>, and
+                        <b>industrial automation</b> to keep your operations running at peak performance.
+                    </p>
+                    <p>With a proven track record in the <b>Marine</b>, <b>Oil & Gas</b>, and <b>Power Plant
+                            industries</b>,
+                        we ensure reliability, safety, and efficiency in every project we undertake</p>
                     <p>
-                    Lorem ipsum dolor sit amet consectetur. Aliquam sagittis nisl venenatis platea montes a. Leo id commodo elementum facilisis augue eu pellentesque. Consequat enim sed ultrices tincidunt in dui pellentesque semper. Massa arcu nisi tempor duis imperdiet. Lobortis velit eget felis feugiat risus blandit aliquam aliquam. Morbi a cursus bibendum pellentesque massa penatibus urna consequat. Nibh nibh at vestibulum nibh libero. Sed orci donec quis.
+                        Lorem ipsum dolor sit amet consectetur. Aliquam sagittis nisl venenatis platea montes a. Leo id
+                        commodo elementum facilisis augue eu pellentesque. Consequat enim sed ultrices tincidunt in dui
+                        pellentesque semper. Massa arcu nisi tempor duis imperdiet. Lobortis velit eget felis feugiat
+                        risus
+                        blandit aliquam aliquam. Morbi a cursus bibendum pellentesque massa penatibus urna consequat.
+                        Nibh
+                        nibh at vestibulum nibh libero. Sed orci donec quis.
                     </p>
                     <p>
-                    Lorem ipsum dolor sit amet consectetur. Sem egestas ullamcorper tincidunt eleifend erat pellentesque nulla. Velit hendrerit volutpat egestas ullamcorper quam cursus ante curabitur. Morbi id ut volutpat felis elit montes id ornare. Dolor nisi sed sit feugiat laoreet sapien nibh. Placerat praesent tellus gravida ornare mauris aliquam at. Semper justo curabitur tincidunt nec lacus quisque condimentum nunc. Pellentesque aliquam tempor arcu auctor sit non. Lorem ipsum dolor sit amet consectetur. 
+                        Lorem ipsum dolor sit amet consectetur. Sem egestas ullamcorper tincidunt eleifend erat
+                        pellentesque
+                        nulla. Velit hendrerit volutpat egestas ullamcorper quam cursus ante curabitur. Morbi id ut
+                        volutpat
+                        felis elit montes id ornare. Dolor nisi sed sit feugiat laoreet sapien nibh. Placerat praesent
+                        tellus gravida ornare mauris aliquam at. Semper justo curabitur tincidunt nec lacus quisque
+                        condimentum nunc. Pellentesque aliquam tempor arcu auctor sit non. Lorem ipsum dolor sit amet
+                        consectetur.
                     </p>
+
+                    <a href="javascript:void(0)" class="main_btn d-inline-block mt-2">Get in Touch
+                        <span class="btn_svg">
+                            <img src="./images/blue_gear.svg" alt="" class="img-fluid">
+                        </span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -144,13 +155,9 @@
 <!-- service section -->
 <section class="service">
     <div class="ym_container">
-<<<<<<< HEAD
-        <div class="row">
-=======
-        <div class="row mb-4 mb-lg-auto">
->>>>>>> origin/ravi
+        <div class="row align-items-center mb-4">
             <div class="col-sm-6 col-lg-6">
-                <h2 class="text-left main_head">Our Services</h2>
+                <h2 class="text-left main_head">End-to-End Maintenance & Manufacturing Solutions</h2>
             </div>
             <div class="col-sm-6 col-lg-6 text-md-end text-start">
                 <a href="javascript:void(0)" class="main_btn d-inline-block">Our Services
@@ -169,7 +176,8 @@
                             <div class="serv_tag">Boiler</div>
                         </div>
                         <div class="inds_slide_foot">
-                            <h6 class="sub_title">Marine & <br> Offshore Industry</h6>
+                            <!-- <h6 class="sub_title">Marine & <br> Offshore Industry</h6> -->
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
                             <a href="#" class="">
                                 <img src="./images/slider_rightarrow.svg" alt="" class="img-fluid">
                             </a>
@@ -183,7 +191,8 @@
                             <div class="serv_tag">Boiler</div>
                         </div>
                         <div class="inds_slide_foot">
-                            <h6 class="sub_title">Marine & <br> Offshore Industry</h6>
+                            <!-- <h6 class="sub_title">Marine & <br> Offshore Industry</h6> -->
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
                             <a href="#" class="">
                                 <img src="./images/slider_rightarrow.svg" alt="" class="img-fluid">
                             </a>
@@ -197,7 +206,8 @@
                             <div class="serv_tag">Boiler</div>
                         </div>
                         <div class="inds_slide_foot">
-                            <h6 class="sub_title">Marine & <br> Offshore Industry</h6>
+                            <!-- <h6 class="sub_title">Marine & <br> Offshore Industry</h6> -->
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
                             <a href="#" class="">
                                 <img src="./images/slider_rightarrow.svg" alt="" class="img-fluid">
                             </a>
@@ -211,7 +221,8 @@
                             <div class="serv_tag">Boiler</div>
                         </div>
                         <div class="inds_slide_foot">
-                            <h6 class="sub_title">Marine & <br> Offshore Industry</h6>
+                            <!-- <h6 class="sub_title">Marine & <br> Offshore Industry</h6> -->
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
                             <a href="#" class="">
                                 <img src="./images/slider_rightarrow.svg" alt="" class="img-fluid">
                             </a>
@@ -227,48 +238,48 @@
 <section class="solution">
     <div class="ym_container">
         <div class="row">
-            <div class="col-sm-6 col-lg-12 mb-4">
+            <div class="col-lg-12 mb-4">
                 <h2 class="main_head">Our Expert Solutions</h2>
                 <p>We deliver end-to-end solutions for industrial boilers and heat exchangers, ensuring maximum
                     efficiency, safety, and reliability. Our expert services in Manufacturing, Repairs, and Maintenance
                     are tailored for the Marine, Oil & Gas, and Power Plant industries. With a focus on innovation and
                     excellence, we help you maintain seamless operations and extend the lifespan of your equipment.</p>
             </div>
-            <div class="col-lg-6 col-sm-6 mb-3">
+            <div class="col-lg-6 col-sm-12 mb-3">
                 <div class="expert_1">
-                    <img src="./images/expert_icon_1.svg" alt="" class="img-fluid">
+                    <img src="./images/expert_icon_1.svg" alt="" class="img-fluid mb-4">
                     <h2>Repairs & Maintenance</h2>
-                    <p class="mb-3">Keeping Your Equipment Running at Peak Performance</p>
+                    <p class="mb-4">Keeping Your Equipment Running at Peak Performance</p>
                     <p>Our services include regular preventive maintenance through inspections and servicing to help
                         avoid costly breakdowns. We also offer emergency repairs with a 24/7 rapid response to minimize
                         operational disruptions. Efficiency optimization is a key part of what we do, focusing on
                         performance tuning to enhance both energy efficiency and the longevity of your equipment. </p>
-                    <div>
+                    <div class="mt-5">
                         <a href="javascript:void(0)" class="main_btn d-inline-block">Know More
                             <span class="btn_svg">
                                 <img src="./images/blue_gear.svg" alt="" class="img-fluid">
                             </span>
                         </a>
                     </div>
-                </div>                
+                </div>
             </div>
             <div class="col-lg-6 col-sm-12 mb-3">
-                <div class="expert_1 expert_2">
-                    <img src="./images/expert_icon_1.svg" alt="" class="img-fluid">
+                <div class="expert_2">
+                    <img src="./images/expert_icon_1.svg" alt="" class="img-fluid mb-4">
                     <h2>Repairs & Maintenance</h2>
-                    <p class="mb-3">Keeping Your Equipment Running at Peak Performance</p>
+                    <p class="mb-4">Keeping Your Equipment Running at Peak Performance</p>
                     <p>Our services include regular preventive maintenance through inspections and servicing to help
                         avoid costly breakdowns. We also offer emergency repairs with a 24/7 rapid response to minimize
                         operational disruptions. Efficiency optimization is a key part of what we do, focusing on
                         performance tuning to enhance both energy efficiency and the longevity of your equipment. </p>
-                    <div>
+                    <div class="mt-5">
                         <a href="javascript:void(0)" class="main_btn d-inline-block">Know More
                             <span class="btn_svg">
                                 <img src="./images/blue_gear.svg" alt="" class="img-fluid">
                             </span>
                         </a>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </div>
@@ -276,19 +287,11 @@
 <!-- proces  -->
 <section class="process">
     <div class="ym_container">
-<<<<<<< HEAD
-        <div class="row mb-4 align-items-center">
-            <div class="col-sm-12 col-lg-7">
-                <h2 class="main_head">Working on Every Step with You</h2>
-            </div>
-            <div class="col-sm-12 col-lg-5 text-md-end text-start">
-=======
         <div class="row mb-4">
             <div class="col-sm-12 col-lg-7">
                 <h2 class="main_head">Working on Every Step with You</h2>
             </div>
             <div class="col-sm-12 col-lg-5 text-end d-none d-lg-block">
->>>>>>> origin/ravi
                 <a href="javascript:void(0)" class="main_btn d-inline-block">Get in Touch
                     <span class="btn_svg">
                         <img src="./images/blue_gear.svg" alt="" class="img-fluid">
@@ -302,13 +305,8 @@
                     and transparent process to ensure your projects are completed on time, within budget, and to the
                     highest standards.</p>
             </div>
-<<<<<<< HEAD
-        </div>
-        <div class="row gx-md-5">
-            <div class="col-sm-12 col-lg-6 mb-4">
-=======
 
-             <div class="col-sm-12 col-lg-5 d-lg-none">
+            <div class="col-sm-12 col-lg-5 d-lg-none">
                 <a href="javascript:void(0)" class="main_btn d-inline-block">Get in Touch
                     <span class="btn_svg">
                         <img src="./images/blue_gear.svg" alt="" class="img-fluid">
@@ -318,7 +316,6 @@
         </div>
         <div class="row gx-md-5">
             <div class="col-sm-12 col-lg-6 mb-4 d-none d-lg-block">
->>>>>>> origin/ravi
                 <img src="./images/solution_img.jpg" alt="solution" class="img-fluid">
             </div>
             <div class="col-sm-12 col-lg-6">
@@ -326,14 +323,14 @@
                     <div class="processslide">
                         <div class="process_head">
                             <div>
-                                <h4>01</h4>
+                                <h4 class="process_vector">01</h4>
                                 <h6>Consultation & Evaluation</h6>
                             </div>
 <<<<<<< HEAD
                             <img src="./images/process_1.svg" alt="" class="img-fluid">
 =======
                             <img src="./images/process_1.svg" alt="" class="img-fluid  d-none d-lg-block">
->>>>>>> origin/ravi
+>>> origin/ravi
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
                             Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
@@ -346,14 +343,14 @@
                     <div class="processslide">
                         <div class="process_head">
                             <div>
-                                <h4>02</h4>
+                                <h4 class="process_vector">02</h4>
                                 <h6>Consultation & Evaluation</h6>
                             </div>
-<<<<<<< HEAD
+
                             <img src="./images/process_2.svg" alt="" class="img-fluid">
-=======
+
                             <img src="./images/process_2.svg" alt="" class="img-fluid d-none d-lg-block">
->>>>>>> origin/ravi
+
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
                             Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
@@ -366,14 +363,94 @@
                     <div class="processslide">
                         <div class="process_head">
                             <div>
-                                <h4>03</h4>
+                                <h4 class="process_vector">03</h4>
                                 <h6>Consultation & Evaluation</h6>
                             </div>
-<<<<<<< HEAD
+
                             <img src="./images/process_3.png" alt="" class="img-fluid">
-=======
+
                             <img src="./images/process_3.png" alt="" class="img-fluid d-none d-lg-block">
->>>>>>> origin/ravi
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                            augue. At felis sodales ultricies senectus maecenas netus adipiscing scelerisque venenatis.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                        </p>
+                    </div>
+                    <div class="processslide">
+                        <div class="process_head">
+                            <div>
+                                <h4 class="process_vector">04</h4>
+                                <h6>Consultation & Evaluation</h6>
+                            </div>
+                            <img src="./images/process_4.png" alt="" class="img-fluid d-none d-lg-block">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                            augue. At felis sodales ultricies senectus maecenas netus adipiscing scelerisque venenatis.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                        </p>
+                    </div>
+                    <div class="processslide">
+                        <div class="process_head">
+                            <div>
+                                <h4 class="process_vector">05</h4>
+                                <h6>Consultation & Evaluation</h6>
+                            </div>
+                            <img src="./images/process_5.png" alt="" class="img-fluid d-none d-lg-block">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                            augue. At felis sodales ultricies senectus maecenas netus adipiscing scelerisque venenatis.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                        </p>
+                    </div>
+                    <div class="processslide">
+                        <div class="process_head">
+                            <div>
+                                <h4 class="process_vector">06</h4>
+                                <h6>Consultation & Evaluation</h6>
+                            </div>
+                            <img src="./images/process_6.png" alt="" class="img-fluid d-none d-lg-block">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                            augue. At felis sodales ultricies senectus maecenas netus adipiscing scelerisque venenatis.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                        </p>
+                    </div>
+                    <div class="processslide">
+                        <div class="process_head">
+                            <div>
+                                <h4 class="process_vector">07</h4>
+                                <h6>Consultation & Evaluation</h6>
+                            </div>
+                            <img src="./images/process_7.png" alt="" class="img-fluid d-none d-lg-block">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                            augue. At felis sodales ultricies senectus maecenas netus adipiscing scelerisque venenatis.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
+                            Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
+                        </p>
+
+                    </div>
+                    <div class="processslide">
+                        <div class="process_head">
+                            <div>
+                                <h4 class="process_vector">08</h4>
+                                <h6>Consultation & Evaluation</h6>
+                            </div>
+                            <img src="./images/process_8.png" alt="" class="img-fluid d-none d-lg-block">
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas.
                             Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat
@@ -409,6 +486,8 @@
                 <div class="result_info">
                     <h3>19+</h3>
                     <h4 class="sub_title">Years of Expertise</h4>
+                    <img class="my-3" src="images/Vector (20).png" alt="">
+                    <img src="" alt="">
                     <p>We deliver end-to-end solutions for industrial boilers and heat exchangers,
                         ensuring maximum efficiency, safety, and reliability. Our expert services in Manufacturing,
                         Repairs, </p>
@@ -418,6 +497,7 @@
                 <div class="result_info">
                     <h3>98%</h3>
                     <h4 class="sub_title">Client Satisfaction</h4>
+                     <img class="my-3" src="images/Vector (20).png" alt="">
                     <p>Our commitment to quality and customer-centric solutions has earned us a 98%
                         client satisfaction rate, making us a trusted partner in the industry.</p>
                 </div>
@@ -426,6 +506,7 @@
                 <div class="result_info">
                     <h3>500+</h3>
                     <h4 class="sub_title">Projects</h4>
+                     <img class="my-3" src="images/Vector (20).png" alt="">
                     <p>With 500+ projects successfully completed across the Middle East, we have a
                         proven track record of excellence. From small-scale repairs to large-scale installations.</p>
                 </div>
@@ -434,6 +515,7 @@
                 <div class="result_info">
                     <h3>500+</h3>
                     <h4 class="sub_title">Projects</h4>
+                     <img class="my-3" src="images/Vector (20).png" alt="">
                     <p>With 500+ projects successfully completed across the Middle East, we have a
                         proven track record of excellence. From small-scale repairs to large-scale installations.</p>
                 </div>
@@ -444,13 +526,13 @@
 <!-- testimonials -->
 <section class="testimonial  text-center">
     <div class="ym_container">
-        <div class="row">
+        <div class="row ">
             <div class="col-lg-12">
                 <h3 class="main_head">Trusted by Industry Leaders</h3>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-7">
+            <div class="col-lg-7 z-1">
                 <div class="test_face">
                     <div class="test_face_slider">
                         <div class="test_face_slide">
@@ -532,7 +614,7 @@
                     <div class="test_msg_slider">
                         <div class="test_msg_slide">
                             <h3 class="sub_title">Sumita Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -549,16 +631,16 @@
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">MM Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
                                 beyond
                                 expectations</p>
-<<<<<<< HEAD
+
                             <p class="test_name">Mr. Ahmed Al Mansoori</p>
                             <p class="test_post">Owner & CEO</p>
-=======
+
                             <div class="test_writer">
                                 <img src="./images/test_user_img.svg" alt="Mr. Ahmed Al Mansoori" class="img-fluid">
                                 <div>
@@ -566,11 +648,11 @@
                                     <p class="test_post">Owner & CEO</p>
                                 </div>
                             </div>
->>>>>>> origin/ravi
+
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">KC Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -581,7 +663,7 @@
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">YM Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -592,7 +674,7 @@
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">YP Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -603,7 +685,7 @@
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">n Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -614,7 +696,7 @@
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">h Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -625,7 +707,7 @@
                         </div>
                         <div class="test_msg_slide">
                             <h3 class="sub_title">m Marine Services</h3>
-                            <p>Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
+                            <p class="test_msg_para">Al Mufaddal has been an invaluable partner for our marine operations. Their expertise
                                 in
                                 boiler repairs and maintenance has significantly reduced our downtime and improved
                                 efficiency. Their team is highly professional, responsive, and always delivers
@@ -642,7 +724,7 @@
 </section>
 
 <!-- network -->
-<section class="network">
+<!-- <section class="network">
     <div class="ym_container">
         <div class="row">
             <div class="col-lg-12">
@@ -670,21 +752,24 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="Request_home">
     <div class="ym_container">
         <div class="Request_Quote_top">
             <h1 class="main_head">Maximize Efficiency, Minimize Downtime.</h1>
-            <p>We deliver end-to-end solutions for industrial boilers and heat exchangers, ensuring maximum efficiency, safety, and reliability. Our expert services in Manufacturing, Repairs, and Maintenance are tailored for the Marine, Oil & Gas, and Power Plant industries. With a focus on innovation and excellence, we help you maintain seamless operations and extend the lifespan of your equipment.</p>
+            <p>We deliver end-to-end solutions for industrial boilers and heat exchangers, ensuring maximum efficiency,
+                safety, and reliability. Our expert services in Manufacturing, Repairs, and Maintenance are tailored for
+                the Marine, Oil & Gas, and Power Plant industries. With a focus on innovation and excellence, we help
+                you maintain seamless operations and extend the lifespan of your equipment.</p>
         </div>
         <div class="row justify-content-between align-items-center">
-            <div class="col-lg-6"> 
+            <div class="col-lg-6">
                 <div class="Request_Quote_bot">
-                  <img class="img-fluid" src="images/project_from.png" alt="worker"> 
-                  <img class="img-fluid Request_Quote_bot_left_icon " src="images/project_form_icon.png" alt="">
+                    <img class="img-fluid" src="images/project_from.png" alt="worker">
+                    <img class="img-fluid Request_Quote_bot_left_icon " src="images/project_form_icon.png" alt="">
                 </div>
-        </div>
+            </div>
             <div class="col-lg-6">
                 <div>
                     <form class="apply-form contact_input">
@@ -692,27 +777,39 @@
                         <h4 class="sub_head mb-0">Request a Quote</h4>
                         <div class="form">
                             <div class="row">
-                                <div class="col-lg-6 form_item"> <label for="firstName">Full Name * :</label><br> <input type="text" id="firstName" name="firstName" required="" placeholder="John Carter"> </div>
-                                <div class="col-lg-6 form_item"> <label for="lastName">Email Id * :</label><br> <input type="text" id="lastName" name="lastName" required="" placeholder="John@gmail.com"> </div>
+                                <div class="col-lg-6 form_item"> <label for="firstName">Full Name * :</label><br> <input
+                                        type="text" id="firstName" name="firstName" required=""
+                                        placeholder="John Carter"> </div>
+                                <div class="col-lg-6 form_item"> <label for="lastName">Email Id * :</label><br> <input
+                                        type="text" id="lastName" name="lastName" required=""
+                                        placeholder="John@gmail.com"> </div>
                                 <div class="col-lg-6 form_item"> <label for="phone">Phone Number * :</label><br>
-                                <div class="phone-input-wrapper">
-                                    <div class="select-wrapper">
-                                        <select class="country-select">
-                                        <option value="+1">US</option>
-                                        <option value="+91">India</option>
-                                        <option value="+44">UK</option>
-                                        </select>
+                                    <div class="phone-input-wrapper">
+                                        <div class="select-wrapper">
+                                            <select class="country-select">
+                                                <option value="+1">US</option>
+                                                <option value="+91">India</option>
+                                                <option value="+44">UK</option>
+                                            </select>
+                                        </div>
+                                        <input type="text" class="phone-number" placeholder="+1 (555) 000-0000">
                                     </div>
-                                       <input type="text" class="phone-number" placeholder="+1 (555) 000-0000">
                                 </div>
-                            </div>
-                                <div class="col-lg-6 form_item"> <label for="Pincode">Pincode * :</label><br> <input type="number" id="Pincode" name="Pincode" required="" placeholder="893320"> </div>
-                                <div class="col-lg-12 form_item"> <label for="">Subject* :</label><br> <input type="text" id="" name="" required="" placeholder="Lorem ipsum dolor sit amet consectetur. "> </div>
-                                <div class="col-md-12 form_item"> <label for="uploadResume" class="form-label">Message :</label> <textarea id="message" name="message" rows="3" placeholder="Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas. Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat" style="resize: none;"></textarea> </div>
-                            </div> <a href="javascript:void(0)" class="main_btn">Submit <span class="btn_svg"> <img src="./images/blue_gear.svg" alt="" class="img-fluid"> </span> </a>
+                                <div class="col-lg-6 form_item"> <label for="Pincode">Pincode * :</label><br> <input
+                                        type="number" id="Pincode" name="Pincode" required="" placeholder="893320">
+                                </div>
+                                <div class="col-lg-12 form_item"> <label for="">Subject* :</label><br> <input
+                                        type="text" id="" name="" required=""
+                                        placeholder="Lorem ipsum dolor sit amet consectetur. "> </div>
+                                <div class="col-md-12 form_item"> <label for="uploadResume" class="form-label">Message
+                                        :</label> <textarea id="message" name="message" rows="3"
+                                        placeholder="Lorem ipsum dolor sit amet consectetur. Pellentesque sit amet ut accumsan ut maecenas. Lobortis pharetra dictum pulvinar lectus facilisis. Nec laoreet aliquet faucibus volutpat"
+                                        style="resize: none;"></textarea> </div>
+                            </div> <a href="javascript:void(0)" class="main_btn">Submit <span class="btn_svg"> <img
+                                        src="./images/blue_gear.svg" alt="" class="img-fluid"> </span> </a>
                         </div>
                     </form>
->>>>>>> origin/ravi
+
                 </div>
             </div>
         </div>
@@ -720,11 +817,11 @@
 </section>
 
 <!-- request -->
-<<<<<<< HEAD
+
 <section class="request">
-=======
+
 <!-- <section class="request">
->>>>>>> origin/ravi
+
     <div class="ym_container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -747,6 +844,5 @@
 </section>
 =======
 </section> -->
->>>>>>> origin/ravi
 
 <?php include('footer.php') ?>
