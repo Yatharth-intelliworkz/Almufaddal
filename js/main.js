@@ -299,9 +299,9 @@ $('#boiler-prev').on('click', function () {
 
 
 
-  Fancybox.bind('[data-fancybox="Certification"]', {
-    
-  });
+Fancybox.bind('[data-fancybox="Certification"]', {
+
+});
 
 
 

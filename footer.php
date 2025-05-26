@@ -21,7 +21,7 @@
                     <h5 class="sub_head">Request<br> a Quote</h4>
                 </div> -->
                 <div class="ft_right_botom">
-                    <img src="./images/ft_logo.svg" alt="logo" class=" foot_logo img-fluid">
+                   <a href="./index.php"> <img src="./images/ft_logo.svg" alt="logo" class=" foot_logo img-fluid"></a>
                     <p>Partner with Al Mufaddal for expert boiler services and experience the difference. Request a
                         quote and discover how we can save you time and money</p>
                     <div class="ft_right_con">
@@ -55,14 +55,14 @@
                 <h6 class="ft_head">Quick Links</h6>
                 <ul class="ft_menu">
                     <li><a href="./index.php">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Quality Management</a></li>
-                    <li><a href="">Certifications</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Blogs</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="./about.php">About</a></li>
+                    <li><a href="./project.php">Projects</a></li>
+                    <li><a href="./quality-management.php">Quality Management</a></li>
+                    <li><a href="./certifications.php">Certifications</a></li>
+                    <li><a href="./testimonials.php">Testimonials</a></li>
+                    <li><a href="./faq.php">FAQ</a></li>
+                    <li><a href="./blogs.php">Blogs</a></li>
+                    <li><a href="./contact.php">Contact Us</a></li>
                 </ul>
 
             </div>
@@ -87,8 +87,8 @@
                 </ul>
                 <h6 class="ft_head mt-4">Career</h6>
                 <ul class="ft_menu">
-                    <li><a href="#">Life at AME</a></li>
-                    <li><a href="#">Current Vacancies</a></li>
+                    <li><a href="./life-ame.php">Life at AME</a></li>
+                    <li><a href="./current-vacancies.php">Current Vacancies</a></li>
                 </ul>
             </div>
         </div>

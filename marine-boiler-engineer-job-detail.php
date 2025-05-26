@@ -2,7 +2,7 @@
 <section class="contact_banner">
     <div class="container-fluid p-0">
         <!-- <img src="./images/tm_bg.png" alt="Terms and Conditions" class="img-fluid w-100"> -->
-        <div class="contact_banner_ctnt" style="background-image:url(./images/tm_bg.png);">
+        <div class="contact_banner_ctnt" style="background-image:url(./images/Marine_Boiler_Engineer_bg.png);">
             <div class="breadcrumbs">
                 <a href="#"><b>Home </b> ></a> <a href="#"><b>Career </b> ></a> <a href="#"><b>Current Vacancies </b> ></a> <span>Marine Boiler Engineer</span>
             </div>
@@ -10,7 +10,7 @@
         </div>
     </div>
 </section>
-<section class="section-space ">
+<section class="section-space-mt">
     <div class="ym_container">
         <div class="row sidebar">
             <div class="col-md-6">
@@ -81,7 +81,7 @@
                                 </label>
                             </div>
                             </div>
-                            <a href="javascript:void(0)" class="main_btn">Send Message
+                            <a href="javascript:void(0)" class="main_btn">Submit 
                                 <span class="btn_svg">
                                     <img src="./images/blue_gear.svg" alt="" class="img-fluid">
                                 </span>

@@ -10,7 +10,7 @@
         </div>
     </div>
 </section>
-<section class="section-space">
+<section class="section-space-mt">
     <div class="ym_container">
         <div class="faq_wrapper ">
             <ul class="nav nav-tabs mx-auto" id="faqtab" role="tablist">
@@ -36,7 +36,7 @@
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                            Lorem ipsum dolor sit amet.
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, ? 
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
@@ -53,13 +53,13 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
-                                            Accordion Item #3
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, ?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> Content goes here.
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                         </div>
                                     </div>
                                 </div>

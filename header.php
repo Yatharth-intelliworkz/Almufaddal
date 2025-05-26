@@ -33,7 +33,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!-- Logo -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.php">
                 <img src="./images/head_logo.svg" alt="Company Logo" class="img-fluid">
             </a>
 
@@ -44,7 +44,6 @@
                 <span class="toggler-bar middle-bar"></span>
                 <span class="toggler-bar bottom-bar"></span>
             </button>
-
 
             <!-- Navigation Links -->
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -98,10 +97,10 @@
                                             <li class="active" id="v-pills-home-tab" data-bs-toggle="pill"
                                                 data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home"
                                                 aria-selected="true">
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
                                                     <div>
-                                                        <h3>Repairs and Maintenance</h3>
-                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                        <h3 class="mega_lf_head">Repairs and Maintenance</h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
                                                     </div>
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
@@ -109,10 +108,10 @@
                                             <li id="v-pills-profile-tab" data-bs-toggle="pill"
                                                 data-bs-target="#v-pills-profile" role="tab"
                                                 aria-controls="v-pills-profile" aria-selected="false">
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
                                                     <div>
-                                                        <h3>Repairs and Maintenance</h3>
-                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                       <h3 class="mega_lf_head">Fabrication</h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
                                                     </div>
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
@@ -120,10 +119,10 @@
                                             <li id="v-pills-disabled-tab" data-bs-toggle="pill"
                                                 data-bs-target="#v-pills-disabled" role="tab"
                                                 aria-controls="v-pills-disabled" aria-selected="false">
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
                                                     <div>
-                                                        <h3>Repairs and Maintenance</h3>
-                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                        <h3 class="mega_lf_head">Riding Crew for Voyage Repairs</h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
                                                     </div>
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
@@ -131,10 +130,10 @@
                                             <li id="v-pills-messages-tab" data-bs-toggle="pill"
                                                 data-bs-target="#v-pills-messages" role="tab"
                                                 aria-controls="v-pills-messages" aria-selected="false">
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
                                                     <div>
-                                                        <h3>Repairs and Maintenance</h3>
-                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                        <h3 class="mega_lf_head">Spare Parts</h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
                                                     </div>
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
@@ -142,10 +141,10 @@
                                             <li id="v-pills-settings-tab" data-bs-toggle="pill"
                                                 data-bs-target="#v-pills-settings" role="tab"
                                                 aria-controls="v-pills-settings" aria-selected="false">
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
                                                     <div>
-                                                        <h3>Repairs and Maintenance</h3>
-                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                       <h3 class="mega_lf_head">Refractory & Insulation</h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
                                                     </div>
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
@@ -153,10 +152,10 @@
                                             <li id="v-pills-settings-tab" data-bs-toggle="pill"
                                                 data-bs-target="#v-pills-settings" role="tab"
                                                 aria-controls="v-pills-settings" aria-selected="false">
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
                                                     <div>
-                                                        <h3>Repairs and Maintenance</h3>
-                                                        <p>Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                        <h3 class="mega_lf_head">Inspection Services</h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
                                                     </div>
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
@@ -170,7 +169,7 @@
                                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                                 aria-labelledby="v-pills-home-tab" tabindex="0">
 
-                                                <div class="row g-4">
+                                                <div class="row g-4">   
                                                     <div class="d-flex justify-content-between align-items-center">
                                                         <div>
                                                             <h2 class="submenu_right_top_head">Repairs and Maintenance
@@ -190,7 +189,17 @@
                                                         <div class="mega_right_bottm">
                                                             <img src="./images/header_dropdown_img.png" alt="">
                                                             <div class="mega_right_bottm_child">
-                                                                <h4>Heat Exchangers</h4>
+                                                                <h4>Boilers</h4>
+                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
+                                                                    sagittis nisl venenatis platea montes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="mega_right_bottm">
+                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <div class="mega_right_bottm_child">
+                                                                <h4>Economizers</h4>
                                                                 <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
                                                                     sagittis nisl venenatis platea montes</p>
                                                             </div>
@@ -210,17 +219,7 @@
                                                         <div class="mega_right_bottm">
                                                             <img src="./images/header_dropdown_img.png" alt="">
                                                             <div class="mega_right_bottm_child">
-                                                                <h4>Heat Exchangers</h4>
-                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
-                                                                    sagittis nisl venenatis platea montes</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="mega_right_bottm">
-                                                            <img src="./images/header_dropdown_img.png" alt="">
-                                                            <div class="mega_right_bottm_child">
-                                                                <h4>Heat Exchangers</h4>
+                                                                <h4>Condensers</h4>
                                                                 <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
                                                                     sagittis nisl venenatis platea montes</p>
                                                             </div>

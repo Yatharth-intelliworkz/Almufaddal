@@ -22,7 +22,6 @@
   --color-gray-900: #1E292E;
   --color-gray-50: #F7F7F7;
   --color-burgundy: #6E1E46;
-  --color-lime: #CAD62B;
 }
 
 body {
@@ -357,6 +356,27 @@ input:focus-visible {
 
 .mega-dropdown_left ul li.active {
   background: var(--color-blue-50);
+  border-radius: 10px;
+}
+
+.mega-dropdown_left ul li.active .mega_lf_head
+{
+ font-weight: 600;
+}
+
+.mega-dropdown_left .mega_lf_head
+{
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--wb-main-blue);
+}
+
+.submenu_right_top_head
+{
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--wb-main-blue);
+  font-family: "Kropaso", sans-serif;
 }
 
 .mega_right_bottm {
@@ -374,16 +394,15 @@ input:focus-visible {
 }
 
 .mega_right_bottm_child h4 {
-  font-size: 24px;
-  letter-spacing: 0px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 400;
   color: var(--white);
+  margin-bottom: 10px;
 }
 
 .mega_right_bottm_child p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
-  letter-spacing: 0px;
   color: var(--white);
 }
 
@@ -1016,7 +1035,7 @@ input:focus-visible {
   left: 40%;
   width: 35px;
   height: 26px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='20' viewBox='0 0 32 20' fill='none'%3E%3Cpath d='M15.9746 0L31.1301 19.5H0.819165L15.9746 0Z' fill='%23E1EF79'/%3E%3C/svg%3E");
+  background-image: url("../images/Polygon\ 1.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1108,6 +1127,12 @@ input:focus-visible {
 }
 
 /* .testimonial .container{padding-inline: 300px;text-align: center;} */
+
+.test_msg_slide
+{
+color: var(--white);
+}
+
 .test_writer {
   display: flex;
   align-items: center;
@@ -1115,12 +1140,7 @@ input:focus-visible {
   justify-content: center;
 }
 
-.test_msg_para {
-  color: var(--white);
-}
-
 .test_msg_slide .sub_title {
-  color: var(--white);
   font-weight: 600;
 }
 
@@ -1370,7 +1390,7 @@ footer {
 }
 
 .form_item label {
-  color: var(--black);
+  color: var(--wb-main-blue);
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 6px;
@@ -2076,12 +2096,26 @@ strong {
   border: 1px solid var(--wb-grey);
 }
 
+/* .accordion-item.active
+{
+  background-color: red;
+} */
+
+/* .accordion-item .accordion-collapse.show
+{
+    background-color: red;
+
+} */
+
+.accordion-item:has(.accordion-collapse.show) {
+  background-color: var(--color-gray-100);
+}
+
 .faq_wrapper .tab-content {
   margin-top: 100px;
 }
 
 .accordion-button:not(.collapsed) {
-  color: var(--black) !important;
   background-color: transparent !important;
   box-shadow: none !important;
 }
@@ -2102,6 +2136,8 @@ strong {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
+  color: var(--wb-main-blue) ;
+  background-color: transparent;
 }
 
 .accordion-button::after {
@@ -2207,7 +2243,6 @@ strong {
 
 .two-column-list .sub_title b {
   font-size: 20px;
-
 }
 
 .two-column-list {
@@ -2341,6 +2376,7 @@ strong {
   background-color: var(--wb-lemon);
   height: 6px;
   width: 100%;
+  border-radius: 60px;
 }
 
 .project_tabs .tab-content {
@@ -2514,7 +2550,7 @@ strong {
 }
 
 .boiler_auxiliary_top .main_h1_head {
-  color: var(--color-lime);
+  color: var(--wb-lemon);
   text-align: center;
   margin-bottom: 60px;
 }

@@ -475,7 +475,7 @@
                 <div class="result_info">
                     <h3>19+</h3>
                     <h4 class="sub_title">Years of Expertise</h4>
-                    <img class="my-3" src="images/Vector (20).png" alt="">
+                    <img class="my-3" src="images/counter_Vector.png" alt="">
                     <img src="" alt="">
                     <p>We deliver end-to-end solutions for industrial boilers and heat exchangers,
                         ensuring maximum efficiency, safety, and reliability. Our expert services in Manufacturing,
@@ -486,7 +486,7 @@
                 <div class="result_info">
                     <h3>98%</h3>
                     <h4 class="sub_title">Client Satisfaction</h4>
-                     <img class="my-3" src="images/Vector (20).png" alt="">
+                     <img class="my-3" src="images/counter_Vector.png" alt="">
                     <p>Our commitment to quality and customer-centric solutions has earned us a 98%
                         client satisfaction rate, making us a trusted partner in the industry.</p>
                 </div>
@@ -495,7 +495,7 @@
                 <div class="result_info">
                     <h3>500+</h3>
                     <h4 class="sub_title">Projects</h4>
-                     <img class="my-3" src="images/Vector (20).png" alt="">
+                     <img class="my-3" src="images/counter_Vector.png" alt="">
                     <p>With 500+ projects successfully completed across the Middle East, we have a
                         proven track record of excellence. From small-scale repairs to large-scale installations.</p>
                 </div>
@@ -504,7 +504,7 @@
                 <div class="result_info">
                     <h3>500+</h3>
                     <h4 class="sub_title">Projects</h4>
-                     <img class="my-3" src="images/Vector (20).png" alt="">
+                     <img class="my-3" src="images/counter_Vector.png" alt="">
                     <p>With 500+ projects successfully completed across the Middle East, we have a
                         proven track record of excellence. From small-scale repairs to large-scale installations.</p>
                 </div>
@@ -742,7 +742,7 @@
             <div class="col-lg-6">
                 <div class="Request_Quote_bot">
                     <img class="img-fluid" src="images/project_from.png" alt="worker">
-                    <img class="img-fluid Request_Quote_bot_left_icon " src="images/project_form_icon.png" alt="">
+                    <!-- <img class="img-fluid Request_Quote_bot_left_icon " src="images/project_form_icon.png" alt=""> -->
                 </div>
             </div>
             <div class="col-lg-6">

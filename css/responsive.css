@@ -81,7 +81,7 @@
   }
 
   .ct_box {
-    padding: 20px;
+    padding: 15px;
   }
 }
 
@@ -160,6 +160,30 @@
     height: 200px;
     width: 200px;
     background-size: cover;
+  }
+
+  .form_item label {
+    font-size: 16px;
+  }
+  
+  .mega-dropdown_left .mega_lf_head
+  {
+    font-size: 20px;
+  }
+
+  .mega_right_bottm_child h4 
+  {
+    font-size: 25px;
+  }
+  
+  .mega_right_bottm_child p
+  {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+    .faq_wrapper .nav-tabs .nav-link {
+    font-size: 25px;
   }
 
 }
@@ -265,15 +289,22 @@
   }
 
   .faq_wrapper .nav-tabs .nav-link {
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .accordion-button {
+    font-size: 18px;
+  }
+
+  .faq_wrapper .tab-content {
+    margin-top: 50px;
   }
 
   #navbarNav .nav-item .nav-link::before {
     display: none;
   }
-  
-  #navbarNav .nav-item .nav-link
-  {
+
+  #navbarNav .nav-item .nav-link {
     line-height: 30px;
   }
 
@@ -557,10 +588,18 @@
     padding: 25px;
   }
 
-
   .two-column-list {
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+
+  .two-column-list .sub_title b,
+  .two-column-list .sub_title span {
+    font-size: 16px;
+  }
+
+  .sidebar .sub_title {
+    font-size: 20px;
   }
 
   .sub_title {
@@ -570,11 +609,11 @@
   .testimonial-card {
     padding: 20px;
   }
-  
-  .test_name
-  {
+
+  .test_name {
     font-size: 18px;
   }
+
 
   /* .contact_banner_ctnt 
   {
