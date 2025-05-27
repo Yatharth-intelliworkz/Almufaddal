@@ -160,6 +160,17 @@
                                                     <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
                                                 </div>
                                             </li>
+                                             <li id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                data-bs-target="#v-pills-settings" role="tab"
+                                                aria-controls="v-pills-settings" aria-selected="false">
+                                                <div class="d-flex justify-content-between align-items-center gap-4">
+                                                    <div>
+                                                        <h3 class="mega_lf_head">Chemical Cleaning </h3>
+                                                        <p class="mega_lf_para">Lorem ipsum dolor sit amet consectetur. Aliquam sagittis</p>
+                                                    </div>
+                                                    <span><img src="./images/header_left_arrow.png" alt="arrow"></span>
+                                                </div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -187,41 +198,41 @@
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_services_img1.png" alt="">
                                                             <div class="mega_right_bottm_child">
-                                                                <h4>Boilers</h4>
-                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
-                                                                    sagittis nisl venenatis platea montes</p>
+                                                                <h4>Auxiliary Boiler</h4>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_services_img2.png" alt="">
                                                             <div class="mega_right_bottm_child">
                                                                 <h4>Economizers</h4>
-                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
-                                                                    sagittis nisl venenatis platea montes</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_services_img3.png" alt="">
                                                             <div class="mega_right_bottm_child">
-                                                                <h4>Heat Exchangers</h4>
-                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
-                                                                    sagittis nisl venenatis platea montes</p>
+                                                                <h4>Incinerator</h4>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="mega_right_bottm">
-                                                            <img src="./images/header_dropdown_img.png" alt="">
+                                                            <img src="./images/header_services_img4.png" alt="">
                                                             <div class="mega_right_bottm_child">
-                                                                <h4>Condensers</h4>
-                                                                <p>Lorem ipsum dolor sit amet consectetur.<br /> Aliquam
-                                                                    sagittis nisl venenatis platea montes</p>
+                                                                <h4>IGG Repair</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="mega_right_bottm">
+                                                            <img src="./images/header_services_img5.png" alt="">
+                                                            <div class="mega_right_bottm_child">
+                                                                <h4>Expansion Joints</h4>
                                                             </div>
                                                         </div>
                                                     </div>
